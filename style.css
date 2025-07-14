@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.project{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.Header{
+    background-color: rgb(31, 41, 55);
+    color: white;
+    height: 480px;
+    padding: 15px;
+}
+.HeaderTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+}
+.HeaderTopLeft,.HeaderTopRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: greenyellow;
+}
+.LinksList{
+    list-style: none;        /* removes bullets */
+    display: flex;           /* makes it horizontal */
+    gap: 20px;               /* spacing between links */
+    padding: 0;
+    margin: 0;
+}
+.HeaderBottom {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
+button{
+    background-color: dodgerblue;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.9ms ease-in-out;
+}
+button:active {
+    transform: translateY(1px);
+    background-color: royalblue;
+}
+.image-placeholder {
+    width: 600px;
+    height: 250px;
+    background-color: #ccc;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 4px;
+}
+.HeaderBottomLeft{
+   margin-left: 220px;
+}
+
+/*=========================================================*/
+.InformationTop{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: inherit;
+    text-align: center;
+}
+.SquareList{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    list-style: none;
+    text-align: center;
+}
+.square{
+    height:160px ;
+    width: 160px;
+    border-radius: 20px;
+    border-color: dodgerblue;
+    border-style: solid;
+    border-block-color: dodgerblue;
+    border-width: 5px;
+}
+
+/*=========================================================*/
+.QuoteContainer{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 300;
+    color: #1f2937;
+    line-height: 1.5;
+}
+.Author {
+    margin-left: 300px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/*=========================================================*/
+.ActionContainer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+}
+.ActionRectangle{
+    background-color: dodgerblue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    border-radius: 20px;
+    width: 800px;
+    padding: 25px;
+    padding-bottom: 40px;
+
+}
+#BottomButton {
+    border: 2px solid white;    /* ✅ white border */
+    outline: none;              /* removes focus outline */
+    box-shadow: none; /* ✅ removes any shadow */
+    margin-top: 30px;
+}
+#TopButton{
+    border:none;
+}
+#BigText{
+    font-size: 24px;font-weight: 700;
+}
+.Footer{
+    background-color: rgb(31, 41, 55);
+    font-size: 15px;
+    text-align: center;
+    padding:30px;
+    color:white;
+}
