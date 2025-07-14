@@ -7,11 +7,13 @@ body {
     overflow-x: hidden;
 }
 
+/* ======= Project Container ======= */
 .project{
     max-width: 100%;
     margin: 0 auto;
 }
 
+/* ======= Header Section ======= */
 .Header{
     background-color: rgb(31, 41, 55);
     color: white;
@@ -51,8 +53,6 @@ a:hover{
     align-items: center;
     gap: 150px;
 }
-
-
 button{
     background-color: dodgerblue;
     color: white;
@@ -82,10 +82,10 @@ button:active {
     border-radius: 4px;
 }
 .HeaderBottomLeft{
-   margin-left: 220px;
+    margin-left: 220px;
 }
 
-/*=========================================================*/
+/* ======= Information Section ======= */
 .InformationTop{
     color: black;
     font-size: 30px;
@@ -110,7 +110,7 @@ button:active {
     border-width: 5px;
 }
 
-/*=========================================================*/
+/* ======= Quote Section ======= */
 .QuoteContainer{
     background-color: #e5e7eb;
     display: flex;
@@ -131,13 +131,13 @@ button:active {
     font-size: 18px;
     margin-top: 20px;
 }
-/*=========================================================*/
+
+/* ======= Call to Action Section ======= */
 .ActionContainer{
     background-color: white;
     display: flex;
     justify-content: center;
     padding: 40px;
-
 }
 .ActionRectangle{
     background-color: dodgerblue;
@@ -149,20 +149,22 @@ button:active {
     width: 800px;
     padding: 25px;
     padding-bottom: 40px;
-
 }
 #BottomButton {
     border: 2px solid white;    /* ✅ white border */
     outline: none;              /* removes focus outline */
-    box-shadow: none; /* ✅ removes any shadow */
+    box-shadow: none;           /* ✅ removes any shadow */
     margin-top: 30px;
 }
 #TopButton{
     border:none;
 }
 #BigText{
-    font-size: 24px;font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
 }
+
+/* ======= Footer Section ======= */
 .Footer{
     background-color: rgb(31, 41, 55);
     font-size: 15px;
