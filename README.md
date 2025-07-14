@@ -1,0 +1,1 @@
+This is a basic landing page project built using HTML and CSS. It was completed in about 3 hours as a fast practice exercise, mainly to improve my layout skills using Flexbox. The page includes a header, hero section, information blocks, a quote section, a call to action, and a footer. The focus was on structure and clean design without using any JavaScript or frameworks.
